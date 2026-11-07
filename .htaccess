@@ -1,0 +1,5 @@
+Options -Indexes
+DirectoryIndex index.php index.html
+<FilesMatch "^(config\.php|config\.local\.php|store-db\.php|products\.php|schema\.sql|setup\.php|\.env.*)$">
+  Require all denied
+</FilesMatch>
